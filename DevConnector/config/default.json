@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://gbouvie:fDpAACTVp4ZWh4Ko@devconnector-yr4kc.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "Ti@V&lhaDesd&nt4d@"
+    "mongoURI": "mongodb+srv://gbouvie:<yourkey>@devconnector-yr4kc.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "yourjwtkey"
 }
