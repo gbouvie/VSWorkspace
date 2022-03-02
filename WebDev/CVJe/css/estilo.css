@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f3f3f3;
+}
+
+.cabecalho {
+    padding: 0 0 1.3rem 0;
+}
+
+.curriculo__grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.curriculo__grid h3 {
+    padding: 0 0.25rem 0.15rem 0;
+}
+
+.icone {
+    padding: 0 0.5rem 0 0;
+}
+
+.icone__maior {
+    padding: 0 0.4rem 0 0;
+}
+
+.icone__maior__ainda {
+    padding: 0 0.2rem 0 0;
+}
+
+.padding__default {
+    padding: 0 1rem 0 1.3rem;
+}
+
+.detalhe {
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0.2rem 0 0 0;
+}
+
+.curriculo__detalhe {
+    padding: 0 0 0.75rem 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fonte__data {
+    font-size: 0.8rem;
+}
+
+.text__email {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.barra {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 100%;
+    height: 4px;
+}
+
+.base {
+    width: 100%;
+    height: 100%;
+    fill: lightgray;
+}
+
+.progresso {
+    height: 100%;
+    fill: blueviolet;
+}
+
+.linkedin__icon {
+    color: blue;
+}

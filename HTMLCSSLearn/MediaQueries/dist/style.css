@@ -1,0 +1,28 @@
+body {
+  background-color: #101010;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 62em) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 87em) {
+  h1 {
+    font-size: 6.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
