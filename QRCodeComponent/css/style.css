@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3;
+    overflow-x: hidden;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 4.375rem;
+    padding-right: 0;
+    padding-bottom: 4.375rem;
+    padding-left: 0;
+}
+
+.item {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+    padding: 15px;
+}
+
+.qrcode {
+    height: 290px;
+    width: 290px;
+    background-image: url('/images/image-qr-code.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0.8rem;
+}
+
+.line {
+    text-align: center;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.suggestion {
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
