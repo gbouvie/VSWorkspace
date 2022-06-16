@@ -4,7 +4,7 @@ import {Title} from "./components/Title";
 function App() {
   return (
     <div>
-      <Title/>
+      <Title color='red'>Live do React.js do Full Cycle</Title>
     </div>
   );
 }

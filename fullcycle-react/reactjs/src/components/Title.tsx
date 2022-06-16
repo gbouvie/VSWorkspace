@@ -1,3 +1,10 @@
-export function Title() {
-    return <h1 style={{color: 'green'}}>Live do React.js do Full Cycle</h1>
+import { PropsWithChildren } from "react"
+
+type TitleProps = {
+    color?: string;
+};
+
+export function Title(props: PropsWithChildren<TitleProps>) {
+    const { color = 'green', children } = props;
+    return <h1 style={{ color }}>{ children }</h1>
 }
