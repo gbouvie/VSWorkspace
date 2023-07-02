@@ -1,13 +1,18 @@
-.borderless {
-    border: 0px solid #999;
+.moreInfo:hover {
+    cursor: pointer;
 }
 
-table {
+.borderless {
+    border: 0px solid #999 !important;
+}
+
+.defaultTable {
     border-spacing: 0.5rem;
     border-collapse: collapse;
+    display: none;
 }
 
-td {
+.defaultTable td {
     border: 1px solid #999;
     padding: 0.5rem;
 }
