@@ -6,19 +6,23 @@
     <link href="tabela.css" rel="stylesheet" type="text/css">
     <script src="tabela.js"></script>
     <script src="https://kit.fontawesome.com/4def0ffb8f.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title>Tabela CSS</title>
 </head>
 <body>
-    <div><i class="moreInfo fa-solid fa-circle-plus" style="color: #1f3251;" onclick="onClickMoreInfo(this);"></i></div>
+    <div><i id="moreInfo" class="moreInfo fa-solid fa-circle-plus" style="color: #1f3251;" onclick="onClickMoreInfo(this);"></i></div>
     <table class="defaultTable" id="tableOne">
-        <tbody>
+        <caption>Esta tabela é para teste</caption>
+        <thead>
             <tr>
-                <td class="borderless"></td>
-                <td>Coluna 1</td>
-                <td>Coluna 2</td>
-                <td>Coluna 3</td>
-                <td>Coluna 4</td>
+                <th class="borderless"></th>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+                <th>Título 4</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>Linha 1</td>
                 <td>Célula 1x1</td>
