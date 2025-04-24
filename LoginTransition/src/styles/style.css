@@ -1,0 +1,89 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.form-container {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sign-up-container {
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.sign-in-container {
+  left: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlay-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: relative;
+  width: 200%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.overlay-panel {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay-left {
+  background-color: #6a82fb;
+  color: white;
+}
+
+.overlay-right {
+  background-color: #fc5c7d;
+  color: white;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.ghost {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
